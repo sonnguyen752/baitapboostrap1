@@ -1,0 +1,47 @@
+
+
+body{
+    box-sizing: border-box;
+}
+nav a{
+    /* color:black; */
+    transition: all 0.5s;
+}
+ a:hover{
+    transform:  scale(1.2);
+    z-index: 2;
+    background-color: aqua;
+    border-radius: 4px;
+    color: red;
+}
+h6 span, h1 span{
+    color: brown;
+    font-weight: bold;
+}
+.panel{
+    /* border:1px solid red; */
+    position: relative;
+    left: -200px;
+    top: -40px;
+}
+.folow div{
+    color: orange;
+    background: white;
+    padding: 5px 10px;
+    border-radius: 4px;
+}
+.section-2>div{
+    background-image: url(/asset/map.jpg);
+    background-repeat: no-repeat;
+}
+.desktop, .mobile{
+    width:20%;
+    text-align: center;
+}
+i{
+    transition: all 0.5s;
+}
+i:hover{
+    color:red;
+    transform: scale(1.2)
+}
